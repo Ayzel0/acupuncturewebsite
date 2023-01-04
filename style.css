@@ -1,0 +1,294 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+#dark-theme
+{
+    background-color: #232024;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* top navigation bar div */
+.topnav
+{
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* links in the top nav bar */
+.topnav a
+{
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.topnav a.right
+{
+    float: right;
+}
+
+.topnav a.left
+{
+    float: left;
+}
+
+.topnav a.active
+{
+    background-color: #777;
+    color: white;
+}
+
+.dropdown
+{
+    float: right;
+    overflow: hidden;
+    color: #777;
+}
+
+.dropdown .dropbtn {
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    color: white;
+    padding: 14px 16px;
+    font-size: 18px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+}
+
+.dropdown .activedropbtn
+{
+    background-color: #777;
+    font-family: inherit;
+    margin: 0;
+    color: white;
+    padding: 14px 16px;
+    font-size: 18px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn
+{
+    background-color: white;
+    color: black;
+}
+
+.dropdown-content
+{
+    color: black;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a{
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover
+{
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content
+{
+    display: block;
+}
+
+.bottom-bar
+{
+    background-color: #171518;
+    width: 100%;
+    bottom: 0;
+    position: relative;
+}
+
+.bottom-bar-column
+{
+    width: 33.33%;
+    float: left;
+}
+
+.bottom-bar:after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px)
+{
+    .bottom-bar-column
+    {
+        width: 100%;
+    }
+}
+
+
+.bottom-bar-header
+{
+    color: white;
+    font-family: 'Trebuchet MS';
+    border-bottom: 3px solid white;
+    margin: 50px 10% 0px 10%;
+    padding: 10px;
+}
+
+
+.bottom-bar-subheader
+{
+    color: white;
+    font-family: 'Trebuchet MS';
+    margin: 10px 10% 0px;
+    padding: 10px;
+}
+
+.bottom-bar-links
+{
+    color: white;
+    font-family: 'Trebuchet MS';
+    margin: 0px 10% 10% 10%;
+    padding: 10px;
+}
+
+.bottom-bar-paragraph
+{
+    color: white;
+    font-family: 'Trebuchet MS';
+    margin: 0px 10%;
+    padding: 10px;
+}
+
+a.bottom-bar-link:link
+{
+    color: white;
+    text-decoration: none;
+}
+
+a.bottom-bar-link:visited
+{
+    color: white;
+    text-decoration: none;
+}
+
+a.bottom-bar-link:hover
+{
+    color: wheat;
+    text-decoration: none;
+}
+
+a.bottom-bar-link:active
+{
+    color: white;
+    text-decoration: none;
+}
+
+.very-bottom-bar
+{
+    color: white;
+    background-color: #171518;
+    font-family: 'Trebuchet MS';
+    margin: 0px;
+}
+
+.very-bottom-bar-paragraph
+{
+    padding: 50px 3.33%;
+    margin: 0px 10px;
+}
+
+.paragraph-with-heading
+{
+    background-color:#302c31;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10px;
+}
+
+.white-heading
+{
+    color: white;
+    border-bottom: 3px solid white;
+    padding: 10px;
+    margin: 20px;
+    font-family:'Trebuchet MS';
+    width: 20%;
+}
+
+.white-paragraph
+{
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    font-family: 'Trebuchet MS';
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.white-unordered-list
+{
+    color: white;
+    padding: 20px;
+    padding-left: 30px;
+    margin: 20px;
+    font-family: 'Trebuchet MS';
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.white-list-item
+{
+    color: inherit;
+}
+
+.schedule-appointment-div
+{
+    background-color: #555;
+    overflow: hidden;
+    margin: 20px 25%;
+}
+
+.schedule-appointment-div a
+{
+    background-color: #2b2c39;
+    padding: 14px 16px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.schedule-appointment-div a:hover
+{
+    background-color: #404154;
+    padding: 14px 16px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
