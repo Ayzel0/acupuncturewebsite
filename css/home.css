@@ -30,3 +30,74 @@ h3.big-white-subheading
 {
     margin: 40px;
 }
+
+.flex-container
+{
+    margin: 0 auto;
+    display: flex;
+}
+
+.flex-container .column
+{
+    padding: 10px;
+    flex: 1;
+}
+
+.flex-container .column:before
+{
+    content: ' ';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.acupuncture-image-ryutaro
+{
+    background-image: url("../pexels-ryutaro-tsukata-5473180.jpg");
+    background-size: cover;
+}
+
+.cupping-image-rodnae
+{
+    background-image: url("../pexels-rodnae-productions-8312828.jpg");
+    background-size: cover;
+}
+
+.acupuncture-image-thirdman
+{
+    background-image: url("../pexels-thirdman-6193372.jpg");
+    background-size: cover;
+}
+
+.five-hundred-height
+{
+    height: 500px;
+}
+
+.semi-transparent-gray-square
+{
+    background-color:rgba(108, 108, 108, 0.514);
+    width: 50%;
+    height: auto;
+    position: relative;
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 42%;
+}
+
+.column-header
+{
+    color: white;
+    font-family: 'Trebuchet MS';
+    border-bottom: 3px solid white;
+    margin: 10px 10% 10px 10%;
+    padding: 10px;
+}
+
+.column-paragraph
+{
+    color: white;
+    font-family: 'Trebuchet MS';
+    margin: 0px 10% 10px 10%;
+    padding: 10px;
+}

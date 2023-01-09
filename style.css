@@ -140,18 +140,6 @@ body
     }
 }
 
-.acupuncture-image-ryutaro
-{
-    background-image: url("pexels-ryutaro-tsukata-5473180.jpg");
-    background-size: cover;
-}
-
-.cupping-image-rodnae
-{
-    background-image: url("pexels-rodnae-productions-8312828.jpg");
-    background-size: cover;
-}
-
 .bottom-bar-header
 {
     color: white;
@@ -184,15 +172,6 @@ body
     font-family: 'Trebuchet MS';
     margin: 0px 10%;
     padding: 10px;
-}
-
-.semi-transparent-gray-square
-{
-    background-color:rgba(165, 165, 165, 0.267);
-    margin: 10% 20px 10% auto;
-    width: 50%;
-    height: 50%;
-    position: relative;
 }
 
 .ivory-text
