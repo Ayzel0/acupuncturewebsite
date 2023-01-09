@@ -10,6 +10,17 @@ div.white-box
     display: block;
 }
 
+@media screen and (max-width: 600px)
+{
+    div.white-box
+    {
+        margin-right: 0px;
+        margin-left: 0px;
+        border-left: 0px;
+        border-right: 0px;
+    }
+}
+
 h1.big-white-heading
 {
     margin: 40px;

@@ -140,6 +140,17 @@ body
     }
 }
 
+.acupuncture-image-ryutaro
+{
+    background-image: url("pexels-ryutaro-tsukata-5473180.jpg");
+    background-size: cover;
+}
+
+.cupping-image-rodnae
+{
+    background-image: url("pexels-rodnae-productions-8312828.jpg");
+    background-size: cover;
+}
 
 .bottom-bar-header
 {
@@ -173,6 +184,20 @@ body
     font-family: 'Trebuchet MS';
     margin: 0px 10%;
     padding: 10px;
+}
+
+.semi-transparent-gray-square
+{
+    background-color:rgba(165, 165, 165, 0.267);
+    margin: 10% 20px 10% auto;
+    width: 50%;
+    height: 50%;
+    position: relative;
+}
+
+.ivory-text
+{
+    color: ivory;
 }
 
 a.bottom-bar-link:link
@@ -209,7 +234,7 @@ a.bottom-bar-link:active
 
 .very-bottom-bar-paragraph
 {
-    padding: 50px 3.33%;
+    padding: 25px 3.33%;
     margin: 0px 10px;
 }
 
@@ -233,6 +258,21 @@ a.bottom-bar-link:active
     margin: 20px;
     font-family:'Trebuchet MS';
     width: 20%;
+}
+
+.centered-text
+{
+    text-align: center;
+    margin: 0 auto;
+    width: 30%;
+}
+
+@media screen and (max-width: 600px)
+{
+    .white-heading
+    {
+        width: 50%;
+    }
 }
 
 .white-paragraph
@@ -261,14 +301,21 @@ a.bottom-bar-link:active
     color: inherit;
 }
 
-.schedule-appointment-div
+.button-div
 {
     background-color: #555;
     overflow: hidden;
     margin: 20px 25%;
 }
 
-.schedule-appointment-div a
+.button-div-narrow
+{
+    margin: 20px 40%;
+}
+
+/* schedule an appointment button */
+
+.button-div a
 {
     background-color: #2b2c39;
     padding: 14px 16px;
@@ -278,9 +325,10 @@ a.bottom-bar-link:active
     display: block;
     margin-left: auto;
     margin-right: auto;
+    text-decoration: none;
 }
 
-.schedule-appointment-div a:hover
+.button-div a:hover
 {
     background-color: #404154;
     padding: 14px 16px;
@@ -292,3 +340,74 @@ a.bottom-bar-link:active
     margin-right: auto;
 }
 
+.top-and-bottom-margins
+{
+    margin: 10px 0px;
+}
+
+.large-top-and-bottom-margins
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* big across element stuff */
+
+.page-spanning-quote-div
+{
+    font-family: 'Lucida Sans';
+    background-color: rgb(243, 226, 195);
+    overflow: hidden;
+}
+
+.page-spanning-quote-column-container
+{
+    margin: 20px 50px;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.page-spanning-quote-left-column
+{
+    width: 30%;
+    text-align: left;
+    float: left;
+}
+
+.page-spanning-quote-right-column
+{
+    width: 30%;
+    margin-left: auto;
+    text-align: right;
+    padding-bottom: 0;
+    padding-top: 0;
+    float: right;
+    align-items: center;
+}
+
+@media screen and (max-width: 600px)
+{
+    .page-spanning-quote-right-column
+    {
+        text-align: center;
+        width: 100%;
+    }
+
+    .page-spanning-quote-left-column
+    {
+        text-align: center;
+        width: 100%;
+    }
+}
+
+.center-vertical-align
+{
+    font-size: 24px;
+}
+
+.page-spanning-quote-column-container:after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
