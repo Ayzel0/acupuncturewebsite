@@ -1,4 +1,106 @@
+* {
+    font-family: 'Trebuchet MS';
+    color: white;
+}
+
 .contact-info-box
 {
-    
+    display: table;
+    width: 100%;
+}
+
+.contact-info-box .map-box
+{
+    width: 60%;
+    float: left;
+}
+
+.contact-info-box .phone-box
+{
+    width: 40%;
+    float: left;
+}
+
+.dark-gray-bordered-box
+{
+    border-radius: 10px;
+    margin: 20px;
+    background-color: #2b2b2b;
+    color: white;
+}
+
+.contact-info-box .header
+{
+    padding: 14px;
+    margin: 20px;
+}
+
+.contact-info-box .paragraph
+{
+    padding: 14px;
+    margin: 20px;
+}
+
+.contact-info-box:after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.image-heading
+{
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    height: 200px;
+    font-size: 100px;
+    line-height: 200px;
+}
+
+.image-heading-small
+{
+    margin: 20px 20%;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.office-image-shvets
+{
+    background-image: url("../pexels-shvets-production-7176317.jpg");
+    background-size: cover;
+    margin: 0px;
+    display: inline-block;
+    width: 100%;
+}
+
+.section-header
+{
+    background-color: ivory;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+
+.expand-to-fill-width
+{
+    background-color: rgb(224, 224, 201);
+    width: 100%;
+    margin: 0px;
+    display: inline-block;
+}
+
+.expand-for-mobile
+{
+    width: 60%;
+}
+
+@media screen and (max-width: 600px)
+{
+    .expand-for-mobile
+    {
+        width: 100%;
+    }
 }

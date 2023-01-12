@@ -10,10 +10,16 @@ body
     font-family: Arial, Helvetica, sans-serif;
 }
 
+#gray-theme
+{
+    background-color: rgb(62, 61, 62);
+}
+
 /* top navigation bar div */
 .topnav
 {
     background-color: #333;
+    top: 0;
     overflow: hidden;
 }
 
