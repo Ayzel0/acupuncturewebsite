@@ -108,6 +108,12 @@ h3.big-white-subheading
     background-size: cover;
 }
 
+.medicine-image-nikolay
+{
+    background-image: url("../pexels-nikolay-osmachko-230489.jpg");
+    background-size: cover;
+}
+
 .five-hundred-height
 {
     height: 500px;
