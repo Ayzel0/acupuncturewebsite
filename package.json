@@ -1,0 +1,25 @@
+{
+  "name": "acupuncturewebsite",
+  "version": "1.0.0",
+  "description": "website for acupuncturist",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ayzel0/acupuncturewebsite.git"
+  },
+  "keywords": [
+    "website"
+  ],
+  "author": "ayzel0",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ayzel0/acupuncturewebsite/issues"
+  },
+  "homepage": "https://github.com/Ayzel0/acupuncturewebsite#readme",
+  "dependencies": {
+    "sass": "^1.57.1"
+  }
+}
