@@ -100,16 +100,18 @@
     text-align: left;
     font-family: 'Trebuchet MS';
     padding: 20px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .text-block .heading
 {
     border-bottom: 5px solid white;
+    margin: 20px;
 }
 
 .text-block .paragraph
 {
-
+    margin: 20px;
+    font-size: 26px;
 }
