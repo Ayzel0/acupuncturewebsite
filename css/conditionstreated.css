@@ -52,7 +52,7 @@
 .grid-display-one
 {
     display: grid;
-    margin: 0px 20%;
+    margin: 0px 10%;
     grid-template-columns: 2fr 3fr;
     /*column-gap: 20px;*/
 }
@@ -117,6 +117,11 @@
     list-style-type: none;
     font-size: 18px;
     row-gap: 20px;
+}
+
+.grid-display-ul li
+{
+    padding: 10px;
 }
 
 .grid-display-two
