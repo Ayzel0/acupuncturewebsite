@@ -18,3 +18,7 @@ div ~ p
 {
     border: 5px solid green;
 }
+
+.mylink:link {
+    color: black;
+}
