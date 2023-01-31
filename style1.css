@@ -14,7 +14,11 @@
     font-family: 'Trebuchet MS';
 }
 
-.parent-div p
+div ~ p
 {
     border: 5px solid green;
+}
+
+.mylink:link {
+    color: black;
 }

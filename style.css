@@ -298,6 +298,18 @@ a.bottom-bar-link:active
     margin: 20px 40%;
 }
 
+@media screen and (max-width: 600px)
+{
+    .button-div {
+        margin: 20px 0%;
+    }
+
+    .button-div-narrow
+    {
+        margin: 20px 10%;
+    }
+}
+
 /* schedule an appointment button */
 
 .button-div a
